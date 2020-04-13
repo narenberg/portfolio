@@ -57,3 +57,25 @@ img {
 	color: black;
 	margin-right: 10px;
 }
+.project {
+	background-color: gray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: solid black;
+	margin-bottom: 5px;
+}
+.project-desc {
+	font-size: 20px;
+	flex-grow: 1;
+	background-color: white;
+	margin: 5px;
+	border-radius: 5px;
+	max-width: 33%;
+}
+
+.project-vid {
+	max-height: 320px;
+	flex-grow: 3;
+}
