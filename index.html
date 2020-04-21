@@ -1,29 +1,27 @@
 <html>
 	<head>
+		<meta charset='utf-8'>
 		<title>Nick Arenberg</title>
-		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+		<script src="scripts/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 	</head>
 	<body>
-		<div class="navbar-contatiner">
-			<div class = "navbar-title">
-				<strong>Nick Arenberg</strong>
-			</div>
-			<div class="navbar-content">
-				<a href="index.html">Homepage</a>
-			</div>
-			<div class="navbar-content">
-				<a href="about.html">About Me</a>
-			</div>
-			<div class="navbar-content">
-				<a href="projects.html">Projects</a>
-			</div>
-			<div class="navbar-content">
-				<a href="https://www.github.com/narenberg">Github</a>
-			</div>
+		<div id='header'></div>
+		<div class='text' id='summary'>
+			Computer Science Student at UCSB 
 		</div>
 		<div class="body-container">
-			<img src="static/images/portrait.jpg" />
-			<p>CS185 First Assignment</p>
+			<div class='links-container'>
+				<h2><strong>Here's a little more about me</strong></h2>
+				<div class='button-container'>
+					<a href='contactme.html' class='button'>Contact Me</a>
+					<a href='projects.html' class='button'>Projects</a>
+					<a href='resume.html' class='button'>Resume</a>
+				</div>
+			</div>
+			<img src="static/images/portrait.jpg" id='portrait'/>
+			
 		</div>
 	</body>
 </html>
